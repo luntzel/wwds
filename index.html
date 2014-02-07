@@ -78,6 +78,9 @@ function setTextValueByIndex(index)
       ar[28] = "I'm not a philosopher or Nostradamus or nothing."
       ar[29] = "They haven't lost at home since Christ was a child."
       ar[30] = "I told him I need tires for my tractor. Hey, it might mean the difference of two or three minutes in a game."
+      ar[31] = "I just fold my pajamas, and that's it. … We played an afternoon game and lost 1-0 Columbus or somebody. It was a pajama party."
+      ar[32] = "When I steal their ties, I tell them they've got $800 ties on, and $300 suits."
+      ar[33] = "There was a lot of contact when he was out there. Boom. Jeez."
 
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
@@ -95,7 +98,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 32 )
+        if( num < 34 )
         {
             setTextValueByIndex(num);
         }
@@ -108,7 +111,7 @@ function loadText()
 
 function changeText()
 {
-    var i = Math.floor(32*Math.random());
+    var i = Math.floor(34*Math.random());
     setTextValueByIndex(i);
 }
 </script>
