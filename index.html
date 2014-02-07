@@ -67,6 +67,17 @@ function setTextValueByIndex(index)
       ar[17] = "What is that? [If the Kings score within the last minute of the second period, then everybody gets a McDonalds McFlurry.] That's a good thing, I guess. A free dessert. I'd rather have lemon meringue pie, myself."
       ar[18] = "On Robyn Regehr's toughness: He's just flat out tough."
       ar[19] = "I saw the same thing you guys did, and that was the last time I saw him, and then I just saw him with his street clothes, like, figuratively a minute ago."
+      ar[20] = "I think I was in the barn…I wasn’t shoveling shit, I remember that, but I had that day. Was probably warming up. It was cold."
+      ar[21] = "I guess I don’t get to see the cows for a while."
+      ar[22] = "This isn’t baseball."
+      ar[23] = "They can wear wigs and sunglasses. I don’t care, as long as they’re ready."
+      ar[24] = "He has a sore back. It’s that old line. 'I’ve got a weak back.' 'When did it happen?' 'About a weak back.'"
+      ar[25] = "Nobody died, and it’s a hard-working point for our team."
+      ar[26] = "(I)t's tough to make the first pass when your friggin' (butt) is up in the air, from getting knocked on it."
+      ar[27] = "Heck, when I first went there, our captain lived in Edmonton in the summer and their captain lived in Calgary. Where was the rivalry? You’ve got tougher traffic than me?"
+      ar[28] = "I'm not a philosopher or Nostradamus or nothing."
+      ar[29] = "They haven't lost at home since Christ was a child."
+      ar[30] = "I told him I need tires for my tractor. Hey, it might mean the difference of two or three minutes in a game."
 
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
@@ -84,7 +95,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 21 )
+        if( num < 32 )
         {
             setTextValueByIndex(num);
         }
