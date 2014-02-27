@@ -82,7 +82,7 @@ function setTextValueByIndex(index)
       ar[32] = "When I steal their ties, I tell them they've got $800 ties on, and $300 suits."
       ar[33] = "There was a lot of contact when he was out there. Boom. Jeez."
       ar[34] = "Where did my team go? Olympics? What's that? Russia?!? They are not in our conference. Why did the team go there?"
-
+      ar[35] = "When you score five goals on the road, you should win a game. What do you mean, am I happy?"
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -99,7 +99,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 35 )
+        if( num < 36 )
         {
             setTextValueByIndex(num);
         }
@@ -112,7 +112,7 @@ function loadText()
 
 function changeText()
 {
-    var i = Math.floor(35*Math.random());
+    var i = Math.floor(36*Math.random());
     setTextValueByIndex(i);
 }
 </script>
