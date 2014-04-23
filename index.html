@@ -86,6 +86,7 @@ function setTextValueByIndex(index)
       ar[36] = "We're trying to make the playoffs. I'm not a philosopher. We're trying to make the playoffs, and so are they."
       ar[37] = "No, I think that I wouldn't call it 'wide open.' I would call it 'errors.'"
       ar[38] = "(On whether momentum can transfer from the third period into Game 2) Yeah. That's why they call it a series, Jon."
+      ar[39] = "We'll play better tomorrow. It's not like there was a death in the family or something"
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -102,7 +103,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 39 )
+        if( num < 40 )
         {
             setTextValueByIndex(num);
         }
