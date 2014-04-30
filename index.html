@@ -88,6 +88,8 @@ function setTextValueByIndex(index)
       ar[38] = "(On whether momentum can transfer from the third period into Game 2) Yeah. That's why they call it a series, Jon."
       ar[39] = "We'll play better tomorrow. It's not like there was a death in the family or something"
       ar[40] = "We won't go away quietly."
+      ar[41] = "Supposed to be a fast track in the Kentucky Derby. Bet on California Chrome."
+      ar[42] = "On what Greene brings: A lot of what Willie brings, except he shoots right."
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -104,7 +106,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 41 )
+        if( num < 43 )
         {
             setTextValueByIndex(num);
         }
