@@ -93,6 +93,7 @@ function setTextValueByIndex(index)
       ar[43] = "[On the key to shutting down Anaheim’s top line]: Hit and hope."
       ar[44] = "[On how the travel is different from the first round series]: Anaheim’s closer than San Jose. You can drive 40 minutes, and the other one, we flew it."
       ar[45] = "I can’t remember much about the San Jose series."
+      ar[46] = "Luck? You can't manage luck. And I’m not managing, I’m coaching."
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -109,7 +110,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 46 )
+        if( num < 47 )
         {
             setTextValueByIndex(num);
         }
