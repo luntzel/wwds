@@ -96,6 +96,8 @@ function setTextValueByIndex(index)
       ar[47] = "On the decision to use Jordan Weal in the shootout: Tanner Pearson told me to, so I did. You do what you’re told."
       ar[48] = "My first thought is when you don\'t see blood and you know your players, and they\'re holding their face – because a lot of times you get hit in the mouth, you bleed, you get a tooth knocked out, you bleed, you get hit in the nose, you bleed, you get cut – the first thing when you do that, that’s what I always think of is eye, Jeez."
       ar[49] = "I couldn’t even tell you when we play ‘em again. [Doctor enters room] Hey doc. You guys need any dental work?"
+      ar[50] = "Sometimes luck is a little bit about work, too."
+      ar[51] = "I think you’re getting into the philosophy, and I’m really just talking about tonight’s game."
 
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -112,7 +114,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 50 )
+        if( num < 52 )
         {
             setTextValueByIndex(num);
         }
@@ -125,7 +127,7 @@ function loadText()
 
 function changeText()
 {
-    var i = Math.floor(50*Math.random());
+    var i = Math.floor(52*Math.random());
     setTextValueByIndex(i);
 }
 </script>
