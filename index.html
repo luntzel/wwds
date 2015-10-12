@@ -98,6 +98,7 @@ function setTextValueByIndex(index)
       ar[49] = "I couldn’t even tell you when we play ‘em again. [Doctor enters room] Hey doc. You guys need any dental work?"
       ar[50] = "Sometimes luck is a little bit about work, too."
       ar[51] = "I think you’re getting into the philosophy, and I’m really just talking about tonight’s game."
+      ar[52] = "Yeah, the ice is [road apples], so if it’s warmer, then it’s just warmer [road apples]. That’s a fact."
 
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -114,7 +115,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 52 )
+        if( num < 53 )
         {
             setTextValueByIndex(num);
         }
