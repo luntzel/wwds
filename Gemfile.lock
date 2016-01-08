@@ -26,6 +26,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capistrano (~> 3.0)
+  capistrano
   capistrano-bundler
   capistrano-rails
+
+BUNDLED WITH
+   1.10.6
