@@ -101,6 +101,7 @@ function setTextValueByIndex(index)
       ar[52] = "Yeah, the ice is [road apples], so if it’s warmer, then it’s just warmer [road apples]. That’s a fact."
       ar[53] = "On whether he worried about playing Lecavalier and Schenn without a practice: Well, I can talk, and they can talk back, so you do communicate and ask them if they want to play and if they’re available to play, so that would be logical."
       ar[54] = "[Reporter: Did you think it was the right call?] Yeah, that’s why I was hollering at ‘em. I was telling ‘em it was a great call."
+      ar[55] = "On Marian Gaborik: Not available. [Reporter: Not available?] No. [Reporter: For the whole series?] I’m not God. I’m not a doctor. I’m closer to a veterinarian than a doctor."
 
     document.getElementById('bigfuckingtext').innerHTML = ar[index];
     document.getElementById('bigfuckingindex').href = "http://whatwoulddarrylsay.com/index.html?p=" + index;
@@ -117,7 +118,7 @@ function loadText()
     else
     {
         var num = parseInt(index);
-        if( num < 55 )
+        if( num < 56 )
         {
             setTextValueByIndex(num);
         }
