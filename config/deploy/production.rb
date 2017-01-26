@@ -1,7 +1,7 @@
-role :app, %w{mluntzel@kopitar.atomicdoom.com}
-role :web, %w{mluntzel@kopitar.atomicdoom.com}
-role :db, %w{mluntzel@kopitar.atomicdoom.com}
+role :app, %w{mluntzel@54.183.118.154}
+role :web, %w{mluntzel@54.183.118.154}
+role :db, %w{mluntzel@54.183.118.154}
 
 
-server 'kopitar.atomicdoom.com', user: 'mluntzel', roles: %w{web app}, my_property: :my_value
+server '54.183.118.154', user: 'mluntzel', roles: %w{web app}, my_property: :my_value
 
